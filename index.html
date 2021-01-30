@@ -10,42 +10,48 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Page 1-1</a></li>
-            <li><a href="#">Page 1-2</a></li>
-            <li><a href="#">Page 1-3</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
+
+
+<div class="container-fluid">
+    <button type="button" class="btn">Home</button>
+    <button type="button" class="btn_cate">Category</button>
+    <button type="button" class="btn_cart">Shopping cart</button>
+    <button type="button" class="btn_check">Check</button>
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <form class="form-inline" action="/action_page.php">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+      </nav>
+</div>
+<div class="card" style="width:400px">
+    <img class="img-thumbnail" src="profile.jpeg" alt="Card image"width="340" height="266">
+    <div class="card-body">
+      <h4 class="card-title">Fanxiang zhou</h4>
+      <p class="card-text">I am the saleman for this website, if u have any question. Please email me</p>
+      
     </div>
   </div>
-</nav>
   
 <div class="container">
-  <h3>Collapsible Navbar</h3>
-  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
-  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
+  <img src="background.png" class="img-fluid" alt="Cinque Terre" width="1400" height="236">
+  <h3>Gift Pick</h3>
+  <pre>System recommed a</pre>
+    <img src="air_condition.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+    <p><a href="https://www.amazon.com/s?k=air+condition&__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&ref=nb_sb_noss" class="btn btn-info" role="button">Air Condtion</a></p>
+  <p>or</p>
+  <img src="air_fryer.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+  <p><a href="https://www.amazon.com/s?k=air+fryer&__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&crid=2W6VM808L675J&sprefix=air+f%2Caps%2C749&ref=nb_sb_ss_ts-a-p_1_5" class="btn btn-info" role="button">Air Fryer</a></p>
+  <p>or</p>
+  <img src="air_cleaner.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+  <p><a href="https://www.amazon.com/s?k=air+cleaner&__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&crid=2SWMQHGIDEO3A&sprefix=air+clea%2Caps%2C668&ref=nb_sb_ss_ts-a-p_1_8" class="btn btn-info" role="button">Air Cleaner</a></p>
+  <p>or</p>
+  <img src="clean_robot.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+  <p><a href="https://www.amazon.com/s?k=cleaner+robot&__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&ref=nb_sb_noss" class="btn btn-info" role="button">Clean Robot</a></p>
+  <button type="button" class="btn">Remove</button>
+  <button type="button" class="btn_Sub">Check out</button>
+
 </div>
 
 </body>
